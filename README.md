@@ -84,8 +84,8 @@ streamlit run app.py
 
 🧪 Input Example for Prediction
 
-Pregnancies: 3
-Glucose: 117
+-Pregnancies: 3
+-Glucose: 117
 BloodPressure: 72
 SkinThickness: 23
 Insulin: 30
