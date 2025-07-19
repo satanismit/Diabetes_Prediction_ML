@@ -98,9 +98,9 @@ Confidence Score: 88.5%
 ## 📂 Project Structure
 
 ## diabetes-predictor/
-│
-├── app.py                # Streamlit app frontend
-├── model_pipeline.pkl    # Final trained pipeline (scaler + model)
-├── rfc_model_diabetes.pkl# Trained Random Forest model
-├── requirements.txt      # All dependencies
-└── README.md             # You're here!
+- │
+- ├── app.py                # Streamlit app frontend
+- ├── model_pipeline.pkl    # Final trained pipeline (scaler + model)
+- ├── rfc_model_diabetes.pkl# Trained Random Forest model
+- ├── requirements.txt      # All dependencies
+- └── README.md             # You're here!
