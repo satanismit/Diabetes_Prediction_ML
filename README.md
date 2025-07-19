@@ -81,20 +81,20 @@ streamlit run app.py
 
 📸 Sample Output
 <p align="center"> <img src="screenshots/sample_output.png" width="600"/> </p>
-
+---
 ## 🧪 Input Example for Prediction
-**Pregnancies: 3**
-**Glucose: 117**
-**BloodPressure: 72**
-**SkinThickness: 23**
-**Insulin: 30**
-**BMI: 32.0**
-**DiabetesPedigreeFunction: 0.372**
-**Age: 29**
+- **Pregnancies: 3**
+- **Glucose: 117**
+- **BloodPressure: 72**
+- **SkinThickness: 23**
+- **Insulin: 30**
+- **BMI: 32.0**
+- **DiabetesPedigreeFunction: 0.372**
+- **Age: 29**
 
 ## Output: ✅ Low Diabetes Risk
 Confidence Score: 88.5%
-
+---
 ## 📂 Project Structure
 
 ## diabetes-predictor/
