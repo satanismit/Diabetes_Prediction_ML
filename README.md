@@ -80,7 +80,7 @@ pip install -r requirements.txt
 streamlit run app.py
 
 📸 Sample Output
-<p align="center"> <img src="C:\Users\GT\OneDrive\diabetes_app" width="600"/> </p>
+<p align="center"> <img src="sample_output.png" width="600"/> </p>
 
 ## 🧪 Input Example for Prediction
 - **Pregnancies: 3**
