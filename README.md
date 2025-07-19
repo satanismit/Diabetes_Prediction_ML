@@ -69,3 +69,39 @@ Invalid values like `0` (except for Pregnancies) are imputed using **median valu
 ```bash
 git clone https://github.com/your-username/diabetes-predictor.git
 cd diabetes-predictor
+```
+## 2. Install Dependencies
+Make sure you have Python 3.7+ installed. Then run:
+
+pip install -r requirements.txt
+
+## 3. Run the App
+
+streamlit run app.py
+
+📸 Sample Output
+<p align="center"> <img src="screenshots/sample_output.png" width="600"/> </p>
+
+🧪 Input Example for Prediction
+
+Pregnancies: 3
+Glucose: 117
+BloodPressure: 72
+SkinThickness: 23
+Insulin: 30
+BMI: 32.0
+DiabetesPedigreeFunction: 0.372
+Age: 29
+
+Output: ✅ Low Diabetes Risk
+Confidence Score: 88.5%
+
+📂 Project Structure
+
+diabetes-predictor/
+│
+├── app.py                # Streamlit app frontend
+├── model_pipeline.pkl    # Final trained pipeline (scaler + model)
+├── rfc_model_diabetes.pkl# Trained Random Forest model
+├── requirements.txt      # All dependencies
+└── README.md             # You're here!
