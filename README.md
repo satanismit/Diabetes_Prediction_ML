@@ -81,7 +81,7 @@ streamlit run app.py
 
 📸 Sample Output
 <p align="center"> <img src="screenshots/sample_output.png" width="600"/> </p>
----
+
 ## 🧪 Input Example for Prediction
 - **Pregnancies: 3**
 - **Glucose: 117**
@@ -94,7 +94,7 @@ streamlit run app.py
 
 ## Output: ✅ Low Diabetes Risk
 Confidence Score: 88.5%
----
+
 ## 📂 Project Structure
 
 ## diabetes-predictor/
